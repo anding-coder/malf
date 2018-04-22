@@ -1,0 +1,37 @@
+.shopname{
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	text-align: center;
+	padding: 0 1%;
+	background-color: #4c4c4c;
+	color: #d1d1d1;
+	width: 99%;
+}
+.shopprice{
+	color: #ea0041;
+    padding-top: 3px;
+    line-height: 18px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.ljqg{
+	height: 35px;
+	width: 100%;
+	line-height: 35px;
+	overflow: hidden;
+	
+	background-color: #ea0041;
+	font-size: 18px;
+}
+.ljqg a{
+	color: #fff;
+	text-decoration: none;
+}
+.shopprice #price{
+	line-height: 18px;
+	color: #ea0041;
+	font-weight: 600;
+	font-size: 18px;
+    font-family: arial;
+}

@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: auto!important;
+    min-width: 990px;
+    z-index: 1000;
+    height: auto;
+    border-bottom: 1px solid #c8baaa;
+}
+#headerContent{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 80%;
+    min-width: 990px;
+    height: 85px;
+    margin: 0 auto;
+    font-family: tahoma,arial,"\5b8b\4f53";
+}
+#mallLogo{
+    float: left;
+}
+#shopExtra{
+    display: flex;
+    justify-content:space-between;
+    width: 455px;
+    border: solid #ff0036;
+    border-width: 3px 0 3px 3px;
+    height: 30px;
+    overflow: hidden;
+}
+#ser-txt{
+    height: auto;
+    width: 380px;
+    border:none;
+    font-family: tahoma,arial,"\5b8b\4f53";
+}
+#ser-btn{
+    right: 0;
+    top: 0;
+    width: 75px;
+    height: 30px;
+    border:none;
+    font-size: 16px;
+    letter-spacing: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ff0036;
+    overflow: hidden;
+    font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+}

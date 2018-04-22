@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/middle.css" />
+    <script src=""></script>
+</head>
+<body>
+    <div class="content">
+        <div id="hd">
+            <div id="col-main">
+                <img src="images/hd.jpg" alt="">
+            </div>
+        </div>
+        <div id="bd">
+                <div id="sn-logo">
+                        <table id="tb-sn-logo" cellspacing="0" cellpadding="0" border="0" height="908" width="1920">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img src="images/bd-left-top.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="#">
+                                            <img src="images/bd-right-top.jpg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img src="images/bd-left-middle.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="#">
+                                            <img src="images/bd-right-middle.jpg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">
+                                            <img src="images/bd-left-bottom.jpg" alt="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="#">
+                                            <img src="images/bd-right-bottom.jpg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+                <div id="hid-logo">
+                    <div id="hid-i">
+                        <div class="hid-one-top">
+                            <a href="#">
+                                <img src="images/bd-hiddle-top.jpg" alt="">
+                            </a>
+                        </div>
+                        <div id="hid-bottom">
+                            <div class="hid-one-bottom">
+                                <a href="#" class="hid-a" name="1" onmouseover="changeImg(this)" onmouseout="backImg(this)">
+                                    <img src="images/bd-hiddle-bottom.jpg" alt="">
+                                </a>
+                            </div>
+                            <div id="hid-i1">
+                                <a href="#" class="hid-a" name="2" onmouseover="changeImg(this)" onmouseout="backImg(this)">
+                                    <img src="images/bd-hidden-left-top.jpg" alt="">
+                                </a>
+                                <a href="#" class="hid-a" name="3" onmouseover="changeImg(this)" onmouseout="backImg(this)">
+                                    <img src="images/bd-hidden-right-top.jpg" alt="">
+                                </a>
+                            </div>
+                            <div id="hid-i2">
+                                <a href="#" class="hid-a" name="4" onmouseover="changeImg(this)" onmouseout="backImg(this)">
+                                    <img src="images/bd-hidden-left-middle.jpg" alt="">
+                                </a>
+                                <a href="#" class="hid-a" name="5" onmouseover="changeImg(this)" onmouseout="backImg(this)">
+                                    <img src="images/bd-hidden-right-middle.jpg" alt="">
+                                </a>
+                            </div>
+                            <div id="hid-i3">
+                                <a href="#" class="hid-a" name="6" onmouseover="changeImg(this)" onmouseout="backImg(this)">
+                                    <img src="images/bd-hidden-left-bottom.jpg" alt="">
+                                </a>
+                                <a href="#" class="hid-a" name="7" onmouseover="changeImg(this)" onmouseout="backImg(this)">
+                                    <img id="asdas" src="images/bd-hidden-right-bottom.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="boots-logo">
+                    <div id="boots-top">
+                        <img src="images/bd-boots-top-left.png" alt="">
+                        <img src="images/bd-boots-top-middle.png" alt="">
+                        <img src="images/bd-boots-top-right.png" alt="">
+                    </div>
+                    <div id="climb-font">
+                        <img src="images/bd-climb-font.png" alt="">
+                    </div>
+                </div>
+        </div>
+        <div id="fd"></div>
+    </div>
+    <script>
+        function changeImg(qwe) {
+            let num=qwe.name;
+            if(num==1){
+                qwe.children[0].setAttribute("src","images/bd-show-bottom.jpg");
+            }else if(num==2){
+                qwe.children[0].setAttribute("src","images/bd-show-left-top.jpg");
+            }else if(num==3){
+                qwe.children[0].setAttribute("src","images/bd-show-right-top.jpg")
+            }else if(num==4){
+                qwe.children[0].setAttribute("src","images/bd-show-left-middle.jpg")
+            }else if(num==5){
+                qwe.children[0].setAttribute("src","images/bd-show-right-middle.jpg")
+            }else if(num==6){
+                qwe.children[0].setAttribute("src","images/bd-show-left-bottom.jpg")
+            }else if(num==7){
+                qwe.children[0].setAttribute("src","images/bd-show-right-bottom.jpg")
+            }
+        }
+        function backImg(qwe){
+            let num=qwe.name;
+            if(num==1){
+                qwe.children[0].setAttribute("src","images/bd-hiddle-bottom.jpg");
+            }else if(num==2){
+                qwe.children[0].setAttribute("src","images/bd-hidden-left-top.jpg");
+            }else if(num==3){
+                qwe.children[0].setAttribute("src","images/bd-hidden-right-top.jpg")
+            }else if(num==4){
+                qwe.children[0].setAttribute("src","images/bd-hidden-left-middle.jpg")
+            }else if(num==5){
+                qwe.children[0].setAttribute("src","images/bd-hidden-right-middle.jpg")
+            }else if(num==6){
+                qwe.children[0].setAttribute("src","images/bd-hidden-left-bottom.jpg")
+            }else if(num==7){
+                qwe.children[0].setAttribute("src","images/bd-hidden-right-bottom.jpg")
+            }
+        }
+    </script>
+</body>
+</html>
