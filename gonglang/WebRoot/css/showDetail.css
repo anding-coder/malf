@@ -1,0 +1,200 @@
+.shopcount{
+	font-family: tahoma,arial,微软雅黑,sans-serif;
+}
+.shopcount .tm-fcs-pane1{
+	background-color: #e9e9e9;
+	background-repeat: no-repeat;
+	position: relative;
+	left: 0;
+	z-index: 10;
+	font: 12px/1.5 "Microsoft Yahei",tahoma,arial;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-right: 20px;
+}
+.shopcount .tm-fcs-pane1 #jg{
+	color: #999;
+	font-size: 12px;
+	text-align: left;
+	float: left;
+	width: 69px;
+	margin: 0 0 0 8px;
+}
+.shopcount .tm-fcs-pane1 #cxj{
+	color: #999;
+	font-size: 12px;
+	text-align: left;
+	float: left;
+	width: 69px;
+	margin: 10px 0 0 8px;
+}
+.shopcount .tm-fcs-pane1 #cxjg{
+	vertical-align: middle;
+	font-size: 30px;
+	color: #FF0036;
+	font-weight: bolder;
+	font-family: Arial;
+}
+.shopcount .amount{
+	height: 35px;
+	line-height: 31px;
+	color: #878787;
+	font-size: 12px;
+}
+.shopcount .amount #sl{
+	text-align: left;
+	float: left;
+	width: 66px;
+	font-size: 12px;
+}
+.shopcount .amount #num{
+	padding: 3px 2px 0 3px;
+   	line-height: 26px;
+   	font-size: 12px;
+	height: 36px;
+	border: 1px solid #a7a6ac;
+	width: 36px;
+	color: #666;
+}
+.shopcount .amount #bt1,#bt2{
+	border:1px solid red;
+	background: transparent;
+	opacity: 0.7;
+}
+.shopcount .shopname h1{
+	line-height: 1;
+	font-size: 26px;
+	font-weight: 700;
+	color: #000;
+	font-family: "microsoft yahei";	
+}
+.shopcount .tb-action{
+	width:500px;
+	height:50px;
+	padding: 10px 0 0 66px;
+	margin: 10px 0 0;
+}
+.shopcount .tb-btn-buy{
+	margin-right: 10px;
+    float: left;
+}
+.shopcount #ljgm{
+	margin-right: 0;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	width: 178px;
+	background-color: #ffeded;
+	border: 1px solid #FF0036;
+	color: #FF0036;
+	font-family: 'Microsoft Yahei';
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	
+}
+.shopcount .tb-btn-basket{
+	margin-right: 1px;
+	float: left;
+}
+.shopcount .tb-btn-basket a{
+	
+	background-color: #ff0036;
+	border: 1px solid #ff0036;
+	color: #fff;
+	margin-right: 0;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	width: 178px;
+	font-family: 'Microsoft Yahei';
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+	}
+	
+	
+.tm-coupon-panel,.tm-coupon-panel a {
+ font:400 12px/35px "Microsoft Yahei",tahoma,arial
+}
+.tm-coupon-panel {
+ position:relative;
+ height:35px;
+ margin:0 10px 0 8px
+}
+.tm-coupon-panel img {
+ float:left;
+ display:inline-block;
+ margin:10px 5px 0 0
+}
+.tm-coupon-panel a {
+ position:absolute;
+ right:0;
+ top:0;
+ display:inline-block;
+ color:#FF0036;
+ padding-right:30px;
+ background-repeat:no-repeat;
+ cursor:pointer;
+ background-position:right center
+}
+.tm-coupon-panel a:hover{
+	text-decoration: underline;
+}
+
+
+<!--评论积分-->
+.tm-ind-panel {
+    border: 1px dotted #c9c9c9;
+    border-width: 1px 0;
+    padding: 10px 0;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    display: flex;
+}
+.tm-ind-item {
+    float: left;
+    width: 33%;
+    text-align: center;
+    position: relative;
+    left: -1px;
+    border-left: 1px solid #e5dfda;
+    flex: 1;
+    line-height: 16px;
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+}
+li, ul {
+    list-style: none;
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+}
+.tm-ind-item .tm-label, .tm-ind-item .tm-monthavg {
+    display: inline-block;
+    line-height: 16px;
+    height: 16px;
+    color: #999;
+}
+.tm-ind-panel .tm-count {
+    display: inline-block;
+    line-height: 16px;
+    height: 16px;
+    color: #FF0036;
+    font-weight: 700;
+    margin-left: 3px;
+}
+.tm-ind-emPointCount .tm-indcon {
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 16px;
+}
+.tm-delivery-panel .signText a, .tm-ind-emPointCount .tm-indcon a, .tm-ind-item a, .tm-ind-item a:hover {
+    text-decoration: none;
+}
+.tm-ind-emPointCount .tm-indcon .tm-count {
+    color: #280;
+}
+<!--评论积分-->

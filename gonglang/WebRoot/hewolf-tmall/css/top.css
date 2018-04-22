@@ -1,0 +1,533 @@
+@CHARSET "UTF-8";
+#site-nav .site-list li,
+#site-nav .sn-user-nick,
+.mui-text-overflow {
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+#site-nav,
+.mui-top-banner-990 {
+    min-width: 990px
+}
+
+#site-nav {
+    width: auto;
+    height: 26px;
+    position: relative!important;
+    background: #f2f2f2;
+    z-index: 99999;
+    -webkit-transform: translate3d(0, 0, 0);
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.w1190 #header .headerCon,
+.w1190 #header .headerLayout,
+.w1190 #mallNav .wrapper,
+.w1190 #site-nav .sn-container,
+.w1190 #sn-bd,
+.w1190 .mallNav-con {
+    width: 1190px;
+}
+
+#site-nav .sn-favorite .menu-hd,
+#site-nav .sn-mytaobao .menu-hd,
+#site-nav .sn-seller .menu-hd,
+#site-nav .sn-sitemap .menu-hd {
+    padding-right: 14px;
+}
+
+#site-nav .sn-container,
+#site-nav a:link,
+#site-nav a:visited {
+    color: #999;
+}
+
+#site-nav .menu-hd {
+    display: block;
+    height: 26px;
+    cursor: pointer;
+    z-index: 100001;
+    border: solid #f2f2f2;
+    border-width: 0 1px;
+    position: relative;
+}
+
+#site-nav .menu-hd,
+#site-nav .sn-b,
+#site-nav .sn-cart,
+#site-nav .sn-home,
+#site-nav .sn-login,
+#site-nav .sn-logout,
+#site-nav .sn-mobile,
+#site-nav .sn-mybrand,
+#site-nav .sn-point,
+#site-nav .sn-quick-menu .sn-cart,
+#site-nav .sn-register,
+#site-nav .sn-seller-center {
+    padding: 0 10px;
+}
+
+#site-nav .sn-container {
+    height: 26px;
+    width: 100%;
+}
+
+#site-nav .sn-container,
+#site-nav .sn-login-info,
+#sn-bd {
+    position: relative;
+}
+
+
+#site-nav .sn-edge,
+#sn-bg,
+.hidden {
+    display: none;
+}
+
+#sn-bd {
+    width: 990px;
+    margin: auto;
+}
+
+#site-nav .sn-container:after,
+#sn-bd:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#site-nav .sn-back-home,
+#site-nav .sn-simple-logo {
+    height: 26px;
+    line-height: 26px;
+    margin-right: 20px;
+    float: left;
+}
+
+
+#site-nav .sn-back-home .mui-global-iconfont {
+    margin-right: 4px;
+    position: relative;
+    top: -1px;
+}
+
+#site-nav .hover a.menu-hd,
+#site-nav .mui-global-iconfont,
+#site-nav .sn-login-info a:hover .sn-msg-num,
+#site-nav .sn-login-info a:hover .sn-point-value,
+#site-nav .sn-menu:hover a.menu-hd,
+#site-nav a.sn-cart-link:hover .mc-count {
+    color: #FF0036;
+}
+
+.mui-global-iconfont {
+    font-family: mui-global-iconfont!important;
+    font-size: 12px;
+    font-style: normal;
+}
+
+a {
+    outline: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#site-nav .sn-login-info,
+#site-nav .sn-user-nick {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+}
+
+
+address,
+cite,
+dfn,
+em,
+var {
+    font-style: normal;
+}
+
+#site-nav .sn-login {
+    padding-left: 20px;
+}
+
+#site-nav .sn-quick-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 26px;
+    line-height: 26px;
+    -webkit-backface-visibility: hidden;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+#site-nav .sn-quick-menu li {
+    float: left;
+    position: relative;
+}
+
+#site-nav .menu-item {
+    position: relative;
+    z-index: 93110;
+}
+
+#site-nav .sn-menu {
+    position: relative;
+}
+
+#site-nav .menu-bd a:link,
+#site-nav .menu-bd a:visited {
+    color: #666;
+}
+
+#site-nav .sn-container .hidden,
+#site-nav .sn-mobile {
+    display: none;
+}
+
+#site-nav .sn-quick-menu .sn-cart {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sn-quick-menu .mc-count {
+    color: #666;
+    padding: 0 2px;
+    font-weight: 700;
+    font-family: Arial;
+}
+
+#site-nav .sn-all-msg b,
+#site-nav .sn-quick-menu .menu-hd b {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    right: 6px;
+    top: 12px;
+    width: 0;
+    height: 0;
+    border-width: 3px;
+    border-style: solid dashed dashed;
+    border-color: #bbb transparent transparent;
+    font-size: 0;
+    line-height: 0;
+}
+
+#site-nav .sn-favorite .menu-bd {
+    width: 62px;
+}
+
+#site-nav .sn-favorite .menu-bd,
+#site-nav .sn-mytaobao .menu-bd,
+#site-nav .sn-seller .menu-bd,
+#site-nav .sn-sitemap .menu-bd {
+    line-height: 1.4;
+    padding: 8px 10px;
+}
+
+#site-nav .menu-bd {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 27px;
+    background: #fff;
+    filter: alpha(opacity=99);
+    z-index: 93110;
+    border: solid #eee;
+    border-width: 0 1px 1px;
+}
+
+#site-nav .menu-bd,
+#site-nav a:active,
+#site-nav a:hover {
+    color: #FF0036;
+}
+
+#site-nav .sn-login-info .sn-separator,
+#site-nav .sn-quick-menu .sn-separator,
+#site-nav .sn-simple-logo .sn-separator {
+    display: inline-block;
+    width: 0;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: top;
+    position: relative;
+    top: 6px;
+    left: 0;
+    font-size: 0;
+    border-left: 1px solid #ccc;
+    margin: 0 2px 0 5px;
+}
+
+#site-nav .sn-mybrand a,
+.sn-home a,
+.sn-mobile a {
+    display: inline;
+}
+
+#site-nav .sn-sitemap .menu-hd {
+    font-weight: 400;
+}
+
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+#site-nav .sn-menu a:hover {
+    text-decoration: underline
+}
+
+#site-nav .sn-message:hover .sn-all-msg b,
+#site-nav .sn-miao-message:hover .sn-all-msg b,
+#site-nav .sn-quick-menu .hover .menu-hd b,
+#site-nav .sn-quick-menu .sn-menu:hover .menu-hd b {
+    -webkit-backface-visibility: hidden;
+    border-color: #bbb transparent transparent;
+    -webkit-transition: -webkit-transform .2s ease-in;
+    -moz-transition: -moz-transform .2s ease-in;
+    -o-transition: -o-transform .2s ease-in;
+    transition: transform .2s ease-in;
+    -moz-transform: rotate(180deg);
+    -moz-transform-origin: 50% 30%;
+    -webkit-transform: rotate(180deg);
+    -webkit-transform-origin: 50% 30%;
+    -o-transform: rotate(180deg);
+    -o-transform-origin: 50% 30%;
+    transform: rotate(180deg);
+    transform-origin: 50% 30%
+}
+
+#site-nav .sn-menu:hover .menu-bd,
+#site-nav .sn-quick-menu .hover .menu-bd {
+    display: block;
+}
+
+#site-nav .sn-mytaobao .menu-bd {
+    width: 74px;
+}
+
+#site-nav .menu-bd-panel a {
+    display: block;
+    line-height: 20px;
+}
+#site-nav .sn-menu:hover .menu-hd, #site-nav .sn-quick-menu .hover .menu-hd {
+    background-color: #fff;
+    border-color: #eee;
+    padding-bottom: 1px;
+}
+#myTaobaoPanel a:hover{
+    color: #FF0036;
+}
+/*网站导航*/
+#site-nav .site-cont {
+    height: 110px;
+}
+
+#site-nav .site-hot {
+    width: 455px;
+}
+
+#site-nav .site-market {
+    width: 455px;
+}
+
+.w1190 #site-nav .site-hot {
+    width: 455px;
+}
+
+.w1190 #site-nav .site-market {
+    width: 455px;
+}
+
+#site-nav .sn-seller .menu-bd {
+    width: 122px;
+    overflow: hidden;
+    right: 0;
+    left: auto;
+}
+#site-nav .sn-seller ul {
+    margin-top: -5px;
+    overflow: hidden;
+    width: 122px;
+}
+#site-nav .sn-seller li {
+    float: none;
+    padding: 5px 0;
+    height: auto;
+    display: block;
+    line-height: 1.4;
+    border-bottom: 1px dotted #827777;
+    margin-right: -20px;
+}
+#site-nav .sn-seller h3 {
+    color: #666;
+    font-weight: 700;
+}
+#site-nav .sn-seller li a {
+    display: inline-block;
+    width: 48px;
+    margin-right: 20px;
+    line-height: 22px;
+}
+.w1190 #site-nav .sn-sitemap .menu-bd {
+    width: 1188px;
+}
+#site-nav .sn-sitemap .menu-bd {
+    width: 988px;
+    border-width: 0 1px 1px;
+    right: 0;
+    left: auto;
+    padding: 25px 0;
+}
+#site-nav .site-brand, #site-nav .site-hot, #site-nav .site-market {
+    float: left;
+}
+#site-nav .site-cont {
+    padding-left: 30px;
+    overflow: hidden;
+}
+#site-nav .site-hot a:hover, #site-nav .site-hot h2 {
+    color: #f56a00;
+}
+#site-nav .site-cont h2 {
+    font-size: 16px;
+    padding-bottom: 8px;
+    font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+}
+#site-nav .site-cont h2 span {
+    padding-left: 6px;
+}
+#site-nav .site-cont ul {
+    margin-right: -20px;
+    overflow: hidden;
+}
+#site-nav .site-list li {
+    width: 95px;
+    float: left;
+    padding: 6px 0;
+    overflow: hidden;
+}
+#site-nav .site-list li a {
+    position: relative;
+}
+#site-nav .site-market {
+    width: 275px;
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+}
+#site-nav .site-market a:hover, #site-nav .site-market h2 {
+    color: #2263d4;
+}
+/*登录后的导航栏*/
+#site-nav .sn-miao-message, #site-nav .sn-welcome-info {
+    height: 26px;
+    float: left;
+}
+#site-nav .sn-miao-message, #site-nav .sn-miao-message .sn-menu, #site-nav .sn-miao-message:hover .menu-bd, #site-nav .sn-msg-body, #site-nav .sn-welcome-info {
+    display: block;
+}
+#site-nav .sn-message-cont {
+    float: left;
+}
+#site-nav .sn-point, #site-nav .sn-welcome-info span {
+    line-height: 26px;
+    vertical-align: top;
+    display: inline-block;
+}
+#site-nav .sn-user-nick {
+    margin-left: -3px;
+    max-width: 110px;
+    -o-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    overflow: hidden;
+}
+#site-nav .sn-login-info, #site-nav .sn-user-nick {
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+}
+#site-nav .site-list li, #site-nav .sn-user-nick, .mui-text-overflow {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#site-nav .sn-point-value, .sn-msg-num {
+    padding-left: 2px;
+    color: #666;
+    font-weight: 700;
+    font-family: Tahoma;
+    line-height: 25px;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+/*搜索框*/
+#header{
+    width: auto!important;
+    min-width: 990px;
+    z-index: 1000;
+    height: auto;
+    border-bottom: 1px solid #c8baaa;
+}
+#headerContent{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 80%;
+    min-width: 990px;
+    height: 85px;
+    margin: 0 auto;
+    font-family: tahoma,arial,"\5b8b\4f53";
+}
+#mallLogo{
+    float: left;
+}
+#shopExtra{
+    display: flex;
+    justify-content:space-between;
+    width: 455px;
+    border: solid #ff0036;
+    border-width: 3px 0 3px 3px;
+    height: 30px;
+    overflow: hidden;
+}
+#ser-txt{
+    height: auto;
+    width: 380px;
+    border:none;
+    font-family: tahoma,arial,"\5b8b\4f53";
+}
+#ser-btn{
+    right: 0;
+    top: 0;
+    width: 75px;
+    height: 30px;
+    border:none;
+    font-size: 16px;
+    letter-spacing: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ff0036;
+    overflow: hidden;
+    font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+}

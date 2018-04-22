@@ -1,0 +1,206 @@
+#tmall-copyright .footer-copyright a {
+    color: #a4a4a4;
+    margin-right: 65px;
+}
+a {
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+#tmall-copyright .footer-copyright {
+    color: #666;
+}
+#tmall-copyright .footer-copyright {
+    line-height: 20px;
+    color: #a4a4a4;
+}
+#tmall-copyright {
+    text-align: left;
+}
+#footer {
+    text-align: center;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+        line-height: 1.5;
+}
+
+
+	#mallPage.w1190, .mui-top-banner-1190, .w1190, .w1190 #mallPage {
+    min-width: 1190px;
+    }
+    .header {
+    padding: 22px 0px;
+    height: 44px;
+    width: 1190px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+.header .tm-logo {
+    margin-top: 8px;
+    width: 190px;
+}
+.content {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+}
+#login-banner-wrap .inner {
+    position: relative;
+    width: 1190px;
+    margin: auto;
+}
+#login-banner-wrap img {
+    display: block;
+    margin: auto;
+}
+#login-banner-wrap .inner a {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 75px;
+    width: 630px;
+    height: 440px;
+    border: none;
+    outline: none;
+	}
+	.content .form-content {
+	    position: relative;
+	}
+	.content .form iframe {
+	    width: 350px;
+	    height: 400px;
+	    overflow: hidden;
+	}
+	.content .form {
+        display: none;
+        position: absolute;
+        top: 91px;
+        right: 60px;
+        background: #fff;
+      }
+      
+      .content .form .form-hd {
+        font-size:14px;
+        font-weight:bold;
+      }
+      .content .form-layer {
+        margin-top:2px;
+        height:45px;
+        width:326px;
+        background:url(//img.alicdn.com/tps/i3/T1d9NTXl4pXXXXXXXX-325-45.png) no-repeat;
+      }
+      .content .m-taobao-com {
+        color:#333;
+      }
+      .content .m-taobao-com a, .content .m-taobao-com a:visited {
+        color:#2953A6;
+      }
+
+
+    .mui-global-footer-bottom-banner {
+          display: none;
+      }
+      #site-nav, #tmall-ensure, #tmall-desc {
+          display: none;
+      }
+      #footer {
+        border-top: none;
+        min-height: 0px;
+      }
+      #footer p a {
+          color: #000;
+          font-size: 12px;
+          
+      }
+      #footer p a:hover {
+      	color: red;
+      	}
+      #tmall-copyright {
+        background: #fff;
+        border-top: none;
+      }
+      #tmall-copyright .footer-copyright {
+          background: #fff;
+          color: #666;
+          font-size: 12px;
+          line-height: 20px;
+      }
+      #tmall-copyright .footer-copyright a {
+          color: #999;
+          font-size: 12px;
+          line-height: 20px;
+      }
+      #tmall-copyright .footer-copyright b {
+          color: #999;
+          font-size: 12px;
+          text-align: center;
+          line-height: 20px;
+      }
+      #server-num, #footer .server-num {
+          background: #fff;
+          color: #fff;
+      }
+      
+    
+      
+    #tmall-copyright .footer-copyright a {
+    color: #a4a4a4;
+    margin-right: 65px;
+   }
+
+      
+      #mallPage .header #mallLogo {
+        float: none;
+        padding-top: 0px;
+        position: static;
+      }
+      
+      #mallPage .header #mallLogo .mlogo {
+        margin-right: 0;
+      }
+        #login-banner-wrap img {
+                    display: block;
+                    margin: auto;
+        }
+                  
+                  #login-banner-wrap .inner {
+                      position: relative;
+                      width: 1190px;
+                      margin: auto;
+                  }
+                  #login-banner-wrap .inner a {
+                      display: block;
+                      position: absolute;
+                      top: 80px;
+                      left: 75px;
+                      width: 630px;
+                      height: 440px;
+                      border: none;
+                      outline: none;
+                  }
+	   #tmall-copyright .footer-otherlink,#tmall-copyright .footer-tmallinfo {
+	 color:#fff;
+	 line-height:25px
+	}
+	#tmall-copyright .footer-copyright,#tmall-copyright .footer-otherlink,
+	#tmall-copyright .footer-tmallinfo {
+	 width:1190px;
+	 margin:0 auto
+	}
+                  
+     #tmall-copyright .footer-copyright,#tmall-copyright .footer-otherlink,#tmall-copyright .footer-tmallinfo {
+  width:990px
+ }
+    #tmall-copyright .footer-otherlink,#tmall-copyright .footer-tmallinfo {
+ color:#fff;
+ line-height:25px
+}
+#tmall-copyright .footer-copyright,#tmall-copyright .footer-otherlink,#tmall-copyright .footer-tmallinfo {
+ width:1190px;
+ margin:0 auto
+}

@@ -1,0 +1,493 @@
+body {
+    color: #333;
+    background: #eff0f1;
+    font: 12px/1.5 tahoma,arial,Hiragino Sans GB,\5b8b\4f53;
+}
+
+#header {
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #d7d8d8;
+    box-shadow: 0 1px 1px #ddd;
+    margin-bottom: 1px;
+}
+.header-container {
+    width: 950px;
+    height: 100%;
+    margin: 0 auto;
+}
+.fn-clear {
+    zoom: 1;
+}
+.fn-clear:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+div {
+    display: block;
+}
+.header-title {
+    float: left;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+#header .logo {
+    width: 88px;
+    height: 30px;
+    float: left;
+    position: relative;
+    font: normal 24px/30px Microsoft YaHei,SimSun;
+    text-align: center;
+    margin-right: 10px;
+}
+#header .logo s {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../image/paylogo.png);
+}
+#header .logo-title {
+    font: normal 18px/26px Microsoft YaHei,SimSun;
+    border-left: 1px solid gray;
+    color: #1a1a1a;
+    float: left;
+    padding-left: 10px;
+    margin-top: 2px;
+}
+.header-right {
+    float: right;
+    margin-top: 17px;
+    overflow: hidden;
+}
+s, strike, del {
+    text-decoration: line-through;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ol, ul {
+    list-style: none;
+}
+#header .logo-title {
+    font: normal 18px/26px Microsoft YaHei,SimSun;
+    border-left: 1px solid gray;
+    color: #1a1a1a;
+    float: left;
+    padding-left: 10px;
+    margin-top: 2px;
+}
+.header-right .account-id {
+    background: none;
+}
+.header-right a{
+    color: #333;
+}
+.header-right a {
+    text-decoration: none;
+}
+.header-right a:hover {
+	color: #0ae;
+    text-decoration: underline;
+}
+.header-right li {
+    padding: 0 10px;
+    margin-right: -1px;
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url(../image/dow.png);
+    background-position: 100%;
+}
+
+
+<!-- 中间部分-->
+#content {
+    margin: 0 auto;
+    width: 950px;
+    margin-bottom: 20px;
+    padding-bottom: 1px;
+    background: #fff;
+}
+
+.order {
+	margin: 0 auto;
+	width: 950px;
+    overflow: visible;
+    zoom: 1;
+}
+
+.order-with-qr .order-wrapper {
+    padding-top: 15px;
+    padding-left: 116px;
+    min-height: 96px;
+}
+
+.order-wrapper {
+    position: relative;
+    z-index: 10;
+    line-height: 1.8em;
+    border-bottom: 3px solid #b3b3b3;
+    background: #eff0f1;
+    padding: 10px 0 11px 10px;
+}
+
+.order-with-qr .qr {
+    border: 0;
+    width: 100px;
+    height: 100px;
+    background: none;
+}
+
+.qr, .qr-discount {
+    position: absolute;
+    left: 0;
+}
+.qr {
+	background-image: url(../image/paymoney.png);
+    background: #fff;
+    width: 80px;
+    height: 80px;
+    border: 3px solid #fff;
+    top: 10px;
+    
+}
+.order-with-qr .qr .qr-wrapper {
+    background: none;
+}
+.qr-wrapper {
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+}
+audio, canvas, video {
+    display: inline-block;
+}
+.order-seller, .order-title {
+    height: auto;
+    line-height: 25px;
+}
+.order-title {
+    width: 600px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 15px;
+}
+.order-with-qr .order-amount {
+    top: 40px;
+}
+.order-amount {
+    position: absolute;
+    right: 27px;
+    top: 30px;
+}
+.order-real-amount em {
+	line-height: 1.8em;
+    color: #ff8208;
+    font-weight: 700;
+    font-size: 22px;
+}
+em{
+	font-style: normal;
+}
+.iconfont {
+    font-family: "cashier" !important;
+    font-style: normal;
+    font-weight: normal;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+}
+.iconfont {
+    font-family: "cashier" !important;
+    font-style: normal;
+    font-weight: normal;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+}
+.order-ext-trigger:link, .order-ext-trigger:visited {
+    color: #fff;
+}
+.order-ext-trigger {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    line-height: 18px;
+    padding: 2px 8px 1px;
+    font-weight: 400;
+    border-top: none;
+    background-color: #b3b3b3;
+}
+a{
+	text-decoration: none;
+}
+#J_OrderExtTrigger a:HOVER{
+	text-decoration: underline;
+}
+.order-ext-trigger .iconfont {
+    display: none;
+}
+.order-ext-trigger i {
+    color: #0ae;
+    font-weight: 400;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+<!--中间支付模块-->
+#J-payMethod{
+	width: 910px;
+	margin:0 auto;
+    	
+}
+.main-container {
+	margin:0 auto;
+	width:910px;
+    border-bottom: 3px solid #a6a6a6;
+    padding: 20px;
+    background-color: #ffffff;
+}
+#J-fastpay-submit, #J-security {
+    margin-top: 25px;
+}
+
+#J-security .ui-fm-item, #J-security .ui-form-item {
+    padding-left: 0;
+    padding-bottom: 15px;
+}
+.ui-securitycore .ui-form-item .ui-form-explain {
+    margin-top: 8px;
+}
+.ui-securitycore .ui-form-item-error .ui-form-explain, .ui-securitycore .ui-form-item-warn .ui-form-explain, .ui-securitycore .ui-form-item-success .ui-form-explain, .ui-securitycore .ui-form-item-success .ui-form-text, .ui-securitycore-tip .ui-form-explain {
+    background-image: url(https://t.alipayobjects.com/tfscom/T1dmlfXc0dXXXXXXXX.png) !important;
+}
+.ui-securitycore .ui-form-item-success .ui-form-explain {
+    background-position: -314px -444px;
+}
+.ui-securitycore .ui-form-item-error .ui-form-explain, .ui-securitycore .ui-form-item-success .ui-form-explain, .ui-securitycore .ui-form-item-success .ui-form-text, .ui-securitycore .ui-form-item-warn .ui-form-explain {
+    background-image: url(https://i.alipayobjects.com/common/widgets/ui-tip.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.ui-securitycore-tip .ui-form-explain {
+    height: 18px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    color: #000;
+}
+.ui-securitycore .ui-form-explain {
+    padding: 3px 0 0;
+    padding: 5px 0 0\9;
+    _padding-top: 3px;
+    _margin-left: 3px;
+    color: #b2b2b2;
+    clear: both;
+}
+body .fn-hide {
+    display: none;
+}
+.ui-securitycore .ui-form-item:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.ui-securitycore .ui-form-item {
+    padding: 0 5px 15px 170px;
+    zoom: 1;
+}
+
+element.style {
+    display: none;
+}
+input, select, textarea {
+    font-size: 100%;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,arial,Hiragino Sans GB,\5b8b\4f53;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+
+#J-fastpay-submit .ui-label, #J-security .ui-label {
+    display: block;
+    float: none;
+    margin-left: 0;
+    padding-bottom: 5px;
+    text-align: left;
+}
+.ui-securitycore .ui-label {
+    float: left;
+    width: 170px;
+    margin-left: -170px;
+    padding-top: 3px;
+    text-align: right;
+    font-size: 14px;
+}
+.ui-securitycore .ui-form-item .ui-input {
+    font-size: 12px;
+    color: #595959;
+    vertical-align: middle;
+}
+.ui-securitycore .ui-form-item input {
+    vertical-align: middle;
+}
+.ui-securitycore .ui-input {
+    width: 170px;
+    padding: 2px 5px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    border-top-color: #a6a6a6;
+}
+.alieditContainer, .alieditContainer * {
+    vertical-align: bottom;
+}
+.alieditContainer {
+    display: inline-block;
+    zoom: 1;
+    width: 184px;
+    height: 24px;
+    position: relative;
+}
+
+element.style {
+    width: 180px;
+}
+div.sixDigitPassword {
+    cursor: text;
+    background: #fff;
+    outline: none;
+    position: relative;
+    padding: 8px 0;
+    height: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+.alieditContainer, .alieditContainer * {
+    vertical-align: bottom;
+}
+
+element.style {
+    width: 29px;
+    border-color: transparent;
+}
+div.sixDigitPassword i {
+    float: left;
+    display: block;
+    padding: 4px 0;
+    height: 7px;
+    border-left: 1px solid #cccccc;
+}
+.ui-securitycore .ui-form-other {
+    _display: inline-block;
+    margin-left: 4px;
+}
+
+<!-- 确定支付-->
+#J-rcSubmit{
+	height: 32px;
+}
+.ui-button-lblue {
+    height: 32px;
+}
+.ui-button-lblue, .ui-button-mblue, .ui-button-sblue {
+    color: #fff;
+    border: 1px solid #0ae;
+    background-color: #0ae;
+}
+.ui-button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 700;
+    border-radius: 2px;
+    padding: 0 20px;
+    background-image: none;
+}
+input[type="button" i], input[type="submit" i], input[type="reset" i] {
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+}
+body .fn-hide {
+    display: none;
+}
+.ui-fm-status {
+    color: #20b907;
+    padding-right: 15px;
+}
+<!--底部-->
+
+#footer {
+	width:950px;
+    padding: 10px;
+    text-align: center;
+    background: #eff0f1;
+}
+.copyright a:hover{
+	color:#808080;
+	text-decoration: underline;
+}
+.copyright,.copyright a{
+	    padding: 30px;
+		color:#808080;
+		text-align: center;
+}
+.copyright a:link, .copyright a:visited {
+    color: #333;
+}
+#ServerNum {
+    color: #eff0f1;
+    text-align: center;
+}
+#partner {
+    border-top: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}

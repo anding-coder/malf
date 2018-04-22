@@ -1,0 +1,596 @@
+#header {
+    margin: -30px 0 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: auto !important;
+    border-bottom: 1px solid #c8baaa;
+    background: #ff0000;
+    min-width: 990px;
+    position: relative;
+    z-index: 1000;
+    height: auto;
+}
+#content, #footer, #header, #page {
+    margin-left: auto;
+    margin-right: auto;
+}
+.w1190 #headerCon {
+    width: 1190px;
+    margin: 0 auto;
+}
+#headerCon {
+    width: 990px;
+    margin: 0 auto;
+    padding: 30px 0 0;
+    height: 85px;
+    font-family: tahoma,arial,"\5b8b\4f53";
+}
+#headerCon #mallLogo {
+    float: left;
+    width: 162px;
+    padding-top: 0;
+    line-height: 18px;
+    position: relative;
+}
+#mallLogo {
+    float: left;
+    z-index: 9;
+    padding-top: 28px;
+    width: 280px;
+    height: 64px;
+    line-height: 64px;
+    position: relative;
+}
+#headerCon #mallLogo .mlogo {
+    padding-right: 7px;
+    float: left;
+    padding-top: 20px;
+}
+#headerCon #mallLogo .mlogo a {
+    width: 145px;
+}
+#mallLogo .mlogo a {
+    height: 30px;
+    font-size: 22px;
+    width: 190px;
+    overflow: hidden;
+}
+#mallLogo a {
+    position: relative;
+    display: block;
+    color: #fff;
+    text-indent: 0 !important;
+}
+#headerCon #mallLogo .mlogo s {
+    position: absolute;
+    display: block;
+    top: 0;
+    cursor: pointer;
+    background: 0 0;
+    text-decoration: none;
+    font-size: 140px;
+    height: 26px;
+    width: 142px;
+    overflow: hidden;
+}
+#mallLogo a {
+    color: #fff;
+    text-indent: 0 !important;
+}
+
+button, h1, h2, h3, h4, h5, h6, input, select, textarea {
+    font-size: 100%;
+}
+#shopExtra {
+    float: left;
+    position: relative;
+    padding: 15px 0 0;
+    height: 50px;
+}
+#shopExtra .slogo {
+    background: -174px -30px no-repeat;
+    float: left;
+    padding: 0 10px;
+    height: 38px;
+    border-left: 1px solid #f0f0f0;
+    width: auto;
+}
+#shopExtra .slogo a {
+    height: 22px;
+    line-height: 19px;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 12px;
+    font-family: "\5b8b\4f53";
+    color: #333;
+    font-weight: 700;
+}
+#shopExtra .slogo-extraicon {
+    height: 25px;
+    width: 80px;
+}
+#shopExtra .slogo .flagship-icon {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    height: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    background-color: #f4c985;
+    border: 1px solid #e7ba77;
+    border-radius: 2px;
+    color: #856651;
+    text-align: center;
+}
+#shopExtra .flagship-icon-font {
+    font-size: 10px;
+    -webkit-transform: scale(.83);
+    display: inline-block;
+}
+.ww-light {
+    overflow: hidden;
+}
+#shopExtra .slogo a {
+    height: 22px;
+    line-height: 19px;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 12px;
+    font-family: "\5b8b\4f53";
+    color: #333;
+    font-weight: 700;
+}
+.ww-static .ww-online {
+    background-position: -110px 0;
+}
+.ww-inline {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.ww-light a span {
+    display: none;
+}
+#shop-info {
+    position: relative;
+    float: left;
+    width: 132px;
+    height: 38px;
+    font-weight: 400;
+    padding: 0 10px;
+    border-left: 1px dotted #f0f0f0;
+}
+#shop-info .main-info {
+    overflow: hidden;
+    position: relative;
+}
+
+#shop-info .shopdsr-score-down, #shop-info .shopdsr-score-equal, #shop-info .shopdsr-score-up {
+    background: 0 0;
+    text-decoration: none;
+    height: 9px;
+    right: 2px;
+}
+#shop-info .shopdsr-item {
+    float: left;
+    color: #999;
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+#shop-info .shopdsr-title {
+    text-align: center;
+    font-family: "\5b8b\4f53";
+}
+#shop-info .shopdsr-score {
+    color: #ff0036;
+    padding-left: 5px;
+    height: 18px;
+    width: 31px;
+    position: relative;
+    overflow: hidden;
+}
+#shop-info .shopdsr-score-up {
+    color: #ff0036;
+    width: 8px;
+    top: 5px;
+    position: absolute;
+}
+#shop-info .shopdsr-score-up::before {
+    content: "\e605";
+    font-size: 12px;
+    font-family: tm-shop-font;
+    position: absolute;
+    left: -2px;
+    top: -4px;
+}
+#shop-info .shopdsr-title {
+    text-align: center;
+    font-family: "\5b8b\4f53";
+}
+
+#shop-info .main-info .slogo-triangle {
+    float: left;
+    display: block;
+    margin: 0 0 0 14px;
+    width: 6px;
+    height: 38px;
+    position: relative;
+}
+#shop-info .main-info a {
+    cursor: pointer;
+    color: #999;
+}
+#shop-info .main-info .slogo-triangle .icon-triangle {
+    border-color: #ccc #fff #fff;
+    border-style: solid;
+    border-width: 4px;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+#ks-component4889 {
+    left: -103px;
+    top: 51px;
+    width: 254px;
+    z-index: 100000;
+}
+#shop-info .extra-info {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 226px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    z-index: 101;
+}
+.ks-overlay-hidden {
+    visibility: hidden;
+}
+#shop-info .extra-info .bd {
+    padding: 0 11px;
+    float: left;
+    width: 91%;
+}
+#shop-info .shop-rate {
+    margin-top: 16px;
+    color: #666;
+}
+#shop-info .shop-rate h4 {
+    height: 18px;
+    margin: 0 0 10px;
+    color: #999;
+    font-weight: 400;
+}
+#shop-info .shop-rate .compare {
+    margin-left: 55px;
+    font-weight: 400;
+    color: #999;
+}
+#shop-info .shop-rate ul {
+    margin-left: 1px;
+}
+#shop-info .shop-rate div, #shop-info .shop-rate li {
+    margin: 5px 0 0;
+    line-height: 15px;
+    color: #959595;
+}
+#shop-info .extra-info .extend {
+    border-top: 1px dotted #DBDBDB;
+    border-bottom: 1px dotted #DBDBDB;
+    margin-top: 13px;
+    padding: 8px 0;
+    color: #959595;
+}
+#shop-info .extra-info .title {
+    font-weight: 400;
+    height: 18px;
+    margin: 5px 0 10px;
+}
+#shop-info .extra-info .extend li {
+    line-height: 22px;
+}
+#shop-info .extra-info .extend .right {
+    margin-left: 59px;
+    color: #999;
+    position: relative;
+}
+#shop-info .extra-info .extend li::after, #shop-info .extra-info .extend li::before {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+#footer, #shop-info .extra-info .extend li::after {
+    clear: both;
+}
+#shop-info .extra-info .extend .right a {
+    color: #999;
+}
+#shop-info .extra-info .extend label {
+    float: left;
+    width: 60px;
+}
+#shop-info .extra-info .extend .right {
+    margin-left: 59px;
+    color: #999;
+    position: relative;
+}
+#shop-info .extra-info .extend .right a {
+    color: #999;
+}
+#shop-info .extra-info .other {
+    margin: 10px 0;
+    overflow: hidden;
+}
+#shop-info .extra-info .other .enter-shop {
+    float: left;
+    margin-left: 10px;
+    vertical-align: top;
+    width: 81px;
+    height: 28px;
+    border: 1px solid #e5e5e5;
+    padding: 0 0 0 17px;
+    color: #404040;
+    position: relative;
+    background-color: #f2f2f2;
+}
+#shop-info .extra-info .other a {
+    width: 69px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+#shop-info .extra-info .other .enter-shop i {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    background: 0 0;
+    font-style: normal;
+}
+#shop-info .extra-info .other .enter-shop i::before {
+    content: "\e606";
+    font-size: 16px;
+    font-family: tm-shop-font;
+    position: absolute;
+    left: -2px;
+    top: -4px;
+}
+#shop-info .extra-info .other .collection {
+    color: #fff;
+    float: right;
+    margin: 0 10px 0 0;
+    vertical-align: top;
+    width: 81px;
+    height: 28px;
+    border: 1px solid #ff0036;
+    padding: 0 0 0 17px;
+    background-color: #ff0036;
+    position: relative;
+}
+#shop-info .extra-info .other a {
+    width: 69px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+.shopwt {
+    float: left;
+    width: 54px;
+    border-left: 1px solid #f0f0f0;
+    padding: 0 10px;
+    margin: 15px 0 0;
+    position: relative;
+}
+	.shopwt .shopwt-desc {
+    float: left;
+    width: 40px;
+}
+.shopwt .shopwt-desc .shopwt-title {
+    text-align: center;
+    color: #999;
+    font-weight: 400;
+}
+.shopwt .shopwt-desc .shopwt-qr {
+    font-style: normal;
+    font-size: 24px;
+    font-family: tm-shop-font;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    color: #999;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+.shopwt .slogo-triangle {
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    display: block;
+    margin: 0 0 0 14px;
+    width: 6px;
+    height: 38px;
+    position: relative;
+}
+.shopwt .slogo-triangle .icon-triangle {
+    border-color: #ccc #fff #fff;
+    border-style: solid;
+    border-width: 4px;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+.tm-qrcode-hpic {
+    position: absolute;
+    left: -1px;
+    top: 51px;
+    z-index: 9999;
+    height: 178px;
+    width: 160px;
+    overflow: hidden;
+    border: 1px solid #e4e4e4;
+    background: #fff;
+    display: none;
+}
+.tm-qrcode-hpic img {
+    margin: 10px 10px 0;
+}
+fieldset, img {
+    border: 0;
+}
+.tm-qrcode-hpic p {
+    width: 160px;
+    text-align: center;
+    color: #9E958C;
+}
+
+.header-extra {
+    overflow: hidden;
+}
+#headerCon {
+    font-family: tahoma,arial,"\5b8b\4f53";
+}
+
+#mallSearch {
+    width: 540px !important;
+}
+#mallSearch {
+	 padding: 15px 0 0;
+    float: right;
+    padding-top: 25px;
+    width: 390px;
+    overflow: hidden;
+}
+#mallSearch .mallSearch-form {
+    border: none;
+}
+.mallSearch-form {
+    border: solid #FF0036;
+    border-width: 3px 0 3px 3px;
+}
+#mallSearch #mq, #mallSearch fieldset, .mallSearch-input {
+    position: relative;
+}
+fieldset, img {
+    border: 0;
+}
+#mallSearch legend, .mallSearch-type, .mui-global-header-fixed .hot-query, .page-not-market .header-banner {
+    display: none;
+}
+legend {
+    color: #000;
+}
+#mallSearch .mallSearch-form .mallSearch-input {
+    height: 36px;
+}
+.mallSearch-input {
+    background: #fff;
+    height: 30px;
+}
+.cf::before, .clearfix::before, .cf::after, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after, .clearfix::before, .headerCon::after, .headerCon::before {
+    display: table;
+    content: "";
+    overflow: hidden;
+}
+#mallSearch .defaultSearch {
+    border: solid #ff0036;
+        border-top-width: medium;
+        border-right-width: medium;
+        border-bottom-width: medium;
+        border-left-width: medium;
+    border-width: 3px 0 3px 3px;
+    width: 455px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.s-combobox {
+    float: left;
+    height: 34px;
+    font-size: 12px;
+}
+
+.s-combobox .s-combobox-input-wrap {
+    position: relative;
+    height: 30px;
+    vertical-align: middle;
+}
+.w1190 #mallSearch #mq {
+    color: #000;
+    margin: 0;
+    background: 0 0;
+    z-index: 2;
+    width: 367px !important;
+    height: 20px;
+    line-height: 20px;
+    padding: 5px 3px 5px 5px;
+    outline: 0;
+    border: none;
+    font-weight: 900;
+    background: url(data:image/gif;base64,R0lGODlhAQADAJEAAObm5t3d3ff39wAAACH5BAAAAAAALAAAAAABAAMAAAICDFQAOw==) repeat-x;
+    box-sizing: content-box;
+}
+#mallSearch #mq, #mallSearch fieldset, .mallSearch-input {
+    position: relative;
+}
+.s-combobox .s-combobox-input {
+    border-radius: 2px 0 0 2px;
+    font-size: 100%;
+    vertical-align: middle;
+    overflow-y: visible;
+}
+
+#mallSearch label, #tmallSearch label {
+    max-width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#mallSearch label {
+    font-size: 12px;
+    line-height: 30px;
+    height: 30px;
+    position: absolute;
+    left: 8px;
+    top: 0;
+    z-index: 1;
+}
+#mallSearch button, #tmallSearch button {
+    position: absolute;
+    z-index: 1;
+}
+#mallSearch button {
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 30px;
+    border: 0;
+    font-size: 16px;
+    letter-spacing: 0;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ff0036;
+    overflow: hidden;
+    font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+}
+#mallSearch .currShopBtn {
+    left: auto;
+    right: 0;
+    top: 0;
+    background: #333;
+    width: 80px;
+    height: 36px;
+}
